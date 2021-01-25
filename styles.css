@@ -25,6 +25,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: white;
 }
 .logo-img{
     max-width:120px;
@@ -36,8 +37,8 @@ a{
     padding-right:5%;
 }
 .nav-item{
-    color: white;
     margin-left:40px;
+    cursor: pointer;
 }
 .intro{
     margin:auto 0;
@@ -222,6 +223,7 @@ font-family: 'Open Sans' sans-serif;
     border: white 1px solid;
     padding: 1% 6%;
     font-size:35px;
+    cursor: pointer;
 }
 @media only screen and (min-width:768px){
     .illustration-img{
@@ -245,10 +247,7 @@ font-family: 'Open Sans' sans-serif;
     }
 }
 @media only screen and (max-width:600px){
-    *{
-        margin: auto 0;
-        padding:0;
-    }
+
     .logo-img{
         max-width:80px;
     }
@@ -260,18 +259,18 @@ font-family: 'Open Sans' sans-serif;
         max-width:83%;
     }
     .intro-content{
-        background:url("/images/bg-curvy-mobile.svg");
+        background-image:url("/images/bg-curvy-mobile.svg");
         background-repeat:no-repeat;
         background-size:cover;
         background-position: -135px 5px;
     }
     .intro-heading{
         font-size:23px;
-        width:100%;
+         width:100%;
     }
     .intro-subheading{
         font-size:11px;
-        width:100%;
+        width:100%
         padding:2% 3%;
     }
     .grid-section{
@@ -292,16 +291,15 @@ font-family: 'Open Sans' sans-serif;
     .productive-section{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width:90%;
         margin-top:13%;
-
     }
     .productive-section-right{
         margin: auto 0;
         width:85%;
     }
     .stay-productive-img{
-        max-width: 80%;
+        max-width:80%;
         margin-bottom:6%;
     }
     .productive-section-heading{
@@ -349,5 +347,11 @@ font-family: 'Open Sans' sans-serif;
     .info-content{
         display: flex;
         flex-direction: column;
+    }
+    .social-media{
+        margin:   10% auto;
+    }
+    .social-media-icon{
+        font-size:30px;
     }
 }

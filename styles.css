@@ -292,15 +292,14 @@ font-family: 'Open Sans' sans-serif;
         display: flex;
         flex-direction: column;
         width:90%;
-        margin-top:13%;
+        margin:auto 0;
     }
     .productive-section-right{
-        margin: auto 0;
-        width:85%;
+        width:100%;
     }
     .stay-productive-img{
         max-width:80%;
-        margin-bottom:6%;
+        margin:6% auto;
     }
     .productive-section-heading{
         font-size:17px;
@@ -314,6 +313,9 @@ font-family: 'Open Sans' sans-serif;
         display: flex;
         flex-direction: column;
         padding-bottom:40%;
+    }
+    .card p{
+        padding-top:7%;
     }
     .access{
         width:90%;

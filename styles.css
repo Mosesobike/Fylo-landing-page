@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
     height: 10vh;
-    padding-top:2.5%;
+    padding-top:5%;
     padding-left:5%;
     padding-right:5%;
     padding-bottom:2%;
@@ -28,7 +28,7 @@ a{
     color: white;
 }
 .logo-img{
-    max-width:120px;
+    max-width:150px;
     height: auto;
 }
 .nav-list{
@@ -114,7 +114,7 @@ a{
     font-weight: 700;
 }
 .productive-section-right p{
-    font-size: 12px;
+    font-size: 17px;
     font-family: 'Open Sans'sans-serif;
     text-align: left;
 }
@@ -147,11 +147,15 @@ a{
     padding: 3% 3%;
     z-index: 2;
 }
+.card P{
+    text-align: left;
+}
 .profile{
     display:flex;
     margin-top:8%;
     font-size:10px;
 }
+
 .profile-img{
     max-width:27px;
     border-radius:30px;
